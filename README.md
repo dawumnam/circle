@@ -1,11 +1,19 @@
 # CIRCLE
 A minimalistic photoblog 
 
-## how to run
--clone repository <br />
--type npm -i to install modules <br />
--run with npm start <br />
--runs on localhost:8080 <br />
+##Dependencies
+Node.js
+
+##How to run project locally:
+Clone the project with
+```bash
+git clone 
+```
+Install node modules with
+```bash
+npm -i
+```
+
 
 ## technologies
 React, Webpack, and Firebase
