@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 3rem 0;
+}
+.title {
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.iconwrapper {
+  margin-top: 0.8rem;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-gap: 1rem;
+}

@@ -1,0 +1,35 @@
+.wrapper {
+  max-width: 100%;
+  opacity: 0;
+  transform: translateY(2rem);
+  animation: fadeInDown 1s ease-out forwards;
+}
+
+.title {
+  margin: 4rem 0;
+
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: 500;
+}
+.linkwrapper {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-gap: 1.5rem;
+}
+.link {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.4);
+}
+.active {
+  color: rgba(0, 0, 0, 1);
+}
+
+@keyframes fadeInDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
